@@ -1418,25 +1418,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .preloader .load :first-child {
-  background: #19A68C;
+  background: #4285f4;
   -webkit-animation-delay: -1.5s;
   animation-delay: -1.5s;
 }
 
 .preloader .load :nth-child(2) {
-  background: #F63D3A;
+  background: #ea4335;
   -webkit-animation-delay: -1s;
   animation-delay: -1s;
 }
 
 .preloader .load :nth-child(3) {
-  background: #FDA543;
+  background: #fbbc05;
   -webkit-animation-delay: -0.5s;
   animation-delay: -0.5s;
 }
 
 .preloader .load :last-child {
-  background: #193B48;
+  background: #34a853;
 }
 
 @-webkit-keyframes spin {
