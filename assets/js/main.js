@@ -209,11 +209,11 @@ Template Name: SeoKit
             if ($(window).scrollTop() >= 100) {
                 $('.itl-header--fixed').addClass('bg-dark-nav');
                 $('.itl-header--inherit').addClass('fixed-top');
-                //$('#back-to-top').addClass('reveal');
+                $('#back-to-top').addClass('reveal');
             } else {
                 $('.itl-header--fixed').removeClass('bg-dark-nav');
                 $('.itl-header--inherit').removeClass('fixed-top');
-                //$('#back-to-top').removeClass('reveal');
+                $('#back-to-top').removeClass('reveal');
             }
         });
     }
