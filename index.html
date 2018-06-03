@@ -1,1022 +1,282 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="rtl" lang="fa-IR" class="no-js">
+<!--<![endif]-->
 <head>
-    <!-- required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	    <meta name="theme-color" content="#1ebbf0"/>	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="/xmlrpc.php" />
+            <script type="text/javascript">
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                var originalAddEventListener = EventTarget.prototype.addEventListener,
+                    oldWidth = window.innerWidth;
 
-    <!-- load google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+                EventTarget.prototype.addEventListener = function (eventName, eventHandler, useCapture) {
+                    if (eventName === "resize") {
+                        originalAddEventListener.call(this, eventName, function (event) {
+                            if (oldWidth === window.innerWidth) {
+                                return;
+                            }
+                            else if (oldWidth !== window.innerWidth) {
+                                oldWidth = window.innerWidth;
+                            }
+                            if (eventHandler.handleEvent) {
+                                eventHandler.handleEvent.call(this, event);
+                            }
+                            else {
+                                eventHandler.call(this, event);
+                            };
+                        }, useCapture);
+                    }
+                    else {
+                        originalAddEventListener.call(this, eventName, eventHandler, useCapture);
+                    };
+                };
+            };
+        </script>
+		<title>The7 &#8211; Just another WordPress site</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="The7 &raquo; خوراک" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The7 &raquo; خوراک دیدگاه‌ها" href="/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.6"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bodhi-svgs-attachment-css'  href='/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=4.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-web-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C600%2C700%7CRoboto+Condensed%3A400%2C600%2C700&#038;ver=4.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-main-css'  href='/wp-content/themes/dt-the7/css/main.min.css?ver=6.5.0' type='text/css' media='all' />
+<style id='dt-main-inline-css' type='text/css'>
+body #load {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 9901;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all .35s ease-out;
+  transition: all .35s ease-out;
+}
+.load-wrap {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.load-wrap > svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+#load {
+  background-color: #ffffff;
+}
+.uil-default rect:not(.bk) {
+  fill: rgba(51,51,51,0.3);
+}
+.uil-ring > path {
+  fill: rgba(51,51,51,0.3);
+}
+.ring-loader .circle {
+  fill: rgba(51,51,51,0.3);
+}
+.ring-loader .moving-circle {
+  fill: #333333;
+}
+.uil-hourglass .glass {
+  stroke: #333333;
+}
+.uil-hourglass .sand {
+  fill: rgba(51,51,51,0.3);
+}
+.spinner-loader .load-wrap {
+  background-image: url("data:image/svg+xml,%3Csvg width='75px' height='75px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='xMidYMid' class='uil-default'%3E%3Crect x='0' y='0' width='100' height='100' fill='none' class='bk'%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(0 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(30 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.08333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(60 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.16666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(90 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.25s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(120 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.3333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(150 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.4166666666666667s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(180 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(210 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5833333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(240 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.6666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(270 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.75s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(300 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.8333333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%2851%2C51%2C51%2C0.3%29' transform='rotate(330 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.9166666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3C/svg%3E");
+}
+.ring-loader .load-wrap {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='72' height='72' fill='rgba%2851%2C51%2C51%2C0.3%29'%3E   %3Cpath opacity='.25' d='M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4'/%3E   %3Cpath d='M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z'%3E     %3CanimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='0.8s' repeatCount='indefinite' /%3E   %3C/path%3E %3C/svg%3E");
+}
+.hourglass-loader .load-wrap {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='72' height='72' fill='rgba%2851%2C51%2C51%2C0.3%29'%3E   %3Cpath transform='translate(2)' d='M0 12 V20 H4 V12z'%3E      %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline'  /%3E   %3C/path%3E   %3Cpath transform='translate(8)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.2' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline'  /%3E   %3C/path%3E   %3Cpath transform='translate(14)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.4' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E   %3C/path%3E   %3Cpath transform='translate(20)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.6' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E   %3C/path%3E   %3Cpath transform='translate(26)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.8' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E   %3C/path%3E %3C/svg%3E");
+}
 
-    <!-- bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-    <!-- fontawesome css -->
-    <link rel="stylesheet" href="assets/css/vendor/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/linearicons.css">
-    <!-- owl carousel css -->
-    <link rel="stylesheet" href="assets/css/vendor/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/owl.theme.default.min.css">
-    <!-- venobox csss -->
-    <link rel="stylesheet" href="assets/css/vendor/venobox.css">
-    <!-- animate css -->
-    <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
-    <!-- seokit styles -->
-    <link rel="stylesheet" href="assets/css/theme-styles.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+</style>
+<link rel='stylesheet' id='dt-awsome-fonts-css'  href='/wp-content/themes/dt-the7/fonts/FontAwesome/css/fontawesome-all.min.css?ver=6.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-fontello-css'  href='/wp-content/themes/dt-the7/fonts/fontello/css/fontello.min.css?ver=6.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-custom-css'  href='/wp-content/uploads/the7-css/custom.css?ver=b4b6023732f8' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-media-css'  href='/wp-content/uploads/the7-css/media.css?ver=b4b6023732f8' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='/wp-content/themes/dt-the7-child/style.css?ver=6.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bsf-Defaults-css'  href='/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=4.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-style-css'  href='/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/style-rtl.min.css?ver=3.16.24' type='text/css' media='all' />
+<link rel='stylesheet' id='ult_ihover_css-css'  href='/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ihover-rtl.min.css?ver=3.16.24' type='text/css' media='all' />
+<link rel='stylesheet' id='ult_hotspot_rtl_css-css'  href='/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/rtl-common.min.css?ver=3.16.24' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dtLocal = {"themeUrl":"\/wp-content\/themes\/dt-the7","passText":"To view this protected post, enter the password below:","moreButtonText":{"loading":"Loading...","loadMore":"Load more"},"postID":"2","ajaxurl":"\/wp-admin\/admin-ajax.php","contactMessages":{"required":"One or more fields have an error. Please check and try again.","terms":"Please accept the privacy policy."},"ajaxNonce":"717a942e8f","pageData":{"type":"page","template":"page","layout":null},"themeSettings":{"smoothScroll":"off","lazyLoading":false,"accentColor":{"mode":"gradient","color":["#1ebbf0","#39dfaa"]},"desktopHeader":{"height":100},"floatingHeader":{"showAfter":140,"showMenu":true,"height":60,"logo":{"showLogo":true,"html":"<img class=\" preload-me\" src=\"\/wp-content\/uploads\/SEOsakht.svg\" srcset=\"\/wp-content\/uploads\/SEOsakht.svg 0w\"   sizes=\"0px\" alt=\"The7\" \/>","url":"\/"}},"mobileHeader":{"firstSwitchPoint":1050,"secondSwitchPoint":778,"firstSwitchPointHeight":80,"secondSwitchPointHeight":60},"stickyMobileHeaderFirstSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"\/wp-content\/uploads\/SEOsakht.svg\" srcset=\"\/wp-content\/uploads\/SEOsakht.svg 0w\"   sizes=\"0px\" alt=\"The7\" \/>"}},"stickyMobileHeaderSecondSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"\/wp-content\/uploads\/SEOsakht.svg\" srcset=\"\/wp-content\/uploads\/SEOsakht.svg 0w\"   sizes=\"0px\" alt=\"The7\" \/>"}},"content":{"textColor":"#85868c","headerColor":"#333333"},"stripes":{"stripe1":{"textColor":"#787d85","headerColor":"#3b3f4a"},"stripe2":{"textColor":"#8b9199","headerColor":"#ffffff"},"stripe3":{"textColor":"#ffffff","headerColor":"#ffffff"}}},"VCMobileScreenWidth":"768"};
+var dtShare = {"shareButtonText":{"facebook":"Share on Facebook","twitter":"Tweet","pinterest":"Pin it","linkedin":"Share on Linkedin","whatsapp":"Share on Whatsapp","google":"Share on Google Plus","download":"Download image"},"overlayOpacity":"85"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/themes/dt-the7/js/above-the-fold.min.js?ver=6.5.0'></script>
+<script type='text/javascript' src='/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate-params.min.js?ver=3.16.24'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.6" />
+<link rel="canonical" href="/" />
+<link rel='shortlink' href='/' />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2F&#038;format=xml" />
+<meta property="og:site_name" content="The7" />
+<meta property="og:title" content="سئو ساخت" />
+<meta property="og:url" content="/" />
+<meta property="og:type" content="website" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) { 
+	var $load = document.getElementById("load");
+	
+	var removeLoading = setTimeout(function() {
+		$load.className += " loader-removed";
+	}, 500);
+});
+</script>
+<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+<body class="rtl home page-template-default page page-id-2 disabled-hover-icons dt-responsive-on accent-gradient srcset-enabled btn-flat custom-btn-color custom-btn-hover-color bold-icons phantom-fade phantom-shadow-decoration phantom-custom-logo-on sticky-mobile-header top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on no-avatars popup-message-style the7-ver-6.5.0 wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
+<!-- The7 6.5.0 -->
+<div id="load" class="spinner-loader">
+	<div class="load-wrap"></div>
+</div>
+<div id="page">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-    <title>SEOKit</title>
-</head>
+<div class="masthead inline-header left widgets full-height shadow-decoration small-mobile-menu-icon dt-parent-menu-clickable show-mobile-logo" role="banner">
 
-<body>
-    <div class="main-wrapper">
-        <!-- preloader start -->
-        <div id="preloader" class="preloader">
-            <div class="load">
-                <hr/>
-                <hr/>
-                <hr/>
-                <hr/>
+			<div class="top-bar line-content top-bar-line-hide">
+			<div class="top-bar-bg" ></div>
+			<div class="left-widgets mini-widgets"><span class="mini-contacts phone show-on-desktop in-top-bar-left in-menu-second-switch">39 69 708 0990</span></div>			<div class="right-widgets mini-widgets"><div class="soc-ico show-on-desktop in-top-bar-right in-menu-second-switch custom-bg disabled-border border-off hover-accent-bg hover-disabled-border  hover-border-off"><a title="Instagram" href="http://127.0.0.1/" target="_blank" class="instagram"><span class="soc-font-icon"></span><span class="screen-reader-text">Instagram</span></a><a title="Twitter" href="http://127.0.0.1/" target="_blank" class="twitter"><span class="soc-font-icon"></span><span class="screen-reader-text">Twitter</span></a><a title="Google+" href="http://127.0.0.1/" target="_blank" class="google"><span class="soc-font-icon"></span><span class="screen-reader-text">Google+</span></a></div></div>		</div>
+
+	<header class="header-bar">
+
+						<div class="branding">
+					<div id="site-title" class="assistive-text">The7</div>
+					<div id="site-description" class="assistive-text">Just another WordPress site</div>
+					<a href="/"><img class="preload-me" src="/wp-content/uploads/SEOsakht.svg" srcset="/wp-content/uploads/SEOsakht.svg 0w"   sizes="0px" alt="The7" /><img class="mobile-logo preload-me" src="/wp-content/uploads/SEOsakht.svg" srcset="/wp-content/uploads/SEOsakht.svg 0w"   sizes="0px" alt="The7" /></a>				</div>
+		<ul id="primary-menu" class="main-nav underline-decoration l-to-r-line outside-item-remove-margin" role="menu"><li class="menu-item page_item page-item-2 current_page_item act first"><a  href='/'><span class="menu-item-text"><span class="menu-text">سئو ساخت</span></span></a></li></ul>
+		
+	</header>
+
+</div><div class='dt-close-mobile-menu-icon'><span></span></div>
+<div class='dt-mobile-header'>
+	<ul id="mobile-menu" class="mobile-main-nav" role="menu">
+		<li class="menu-item page_item page-item-2 current_page_item act first"><a  href='/'><span class="menu-item-text"><span class="menu-text">سئو ساخت</span></span></a></li>	</ul>
+	<div class='mobile-mini-widgets-in-menu'></div>
+</div>
+
+
+<div id="main" class="sidebar-none sidebar-divider-vertical"  >
+
+	
+    <div class="main-gradient"></div>
+    <div class="wf-wrap">
+    <div class="wf-container-main">
+
+	
+
+
+    <div id="content" class="content" role="main">
+
+		<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="dt-fancy-separator h1-size style-double accent-title-color" style="width: 100%;"><div class="dt-fancy-title"><span class="separator-holder separator-left"></span>خدمات وب سایت سئو ساخت<span class="separator-holder separator-right"></span></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="ult-ih-container ult-adjust-bottom-margin" >	<ul class="ult-ih-list"  data-shape="circle"  data-width="250"  data-height="250"  style="text-align:center; "><li id="ult-ih-list-item-1780" class="ult-ih-list-item" style="height: 250px; width: 250px;  margin: 15px"><div style="height: 250px; width: 250px; " class="ult-ih-item ult-ih-effect10    ult-ih-bottom_to_top"><div class="ult-ih-image-block" style="height: 250px; width: 250px; ">	<div class="ult-ih-wrapper" style=""></div>	<img class="ult-ih-image" src="/wp-content/uploads/Idea.svg" alt="مشاوره فناوری اطلاعات"></div><div class="ult-ih-info" style="background-color: #1e73be; ">	<div class="ult-ih-info-back">	<div class="ult-ih-content">			<div class="ult-ih-heading-block" style="">				<h3 class="ult-ih-heading ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-1780 .ult-ih-heading'  data-responsive-json-new='{"font-size":"desktop:22px;","line-height":"desktop:28px;"}' >مشاوره</h3>			</div>			<div class="ult-ih-divider-block" style="height:1px;">				<span class="ult-ih-line" style="border-style:solid;border-color:rgba(255,255,255,0.75);width:100px;border-width:1px;"></span>			</div>			<div class="ult-ih-description-block" style="">				<div class="ult-ih-description ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-1780 .ult-ih-description, #ult-ih-list-item-1780 .ult-ih-description p'  data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:18px;"}' ><p>ارائه راهکار مبتنی بر فناوری اطلاعات متناسب با نیاز شما</p>
+				</div>			</div>	</div>	</div></div></div></li><li id="ult-ih-list-item-1162" class="ult-ih-list-item" style="height: 250px; width: 250px;  margin: 15px"><div style="height: 250px; width: 250px; " class="ult-ih-item ult-ih-effect10    ult-ih-bottom_to_top"><div class="ult-ih-image-block" style="height: 250px; width: 250px; ">	<div class="ult-ih-wrapper" style=""></div>	<img class="ult-ih-image" src="/wp-content/uploads/Responsive-Design.svg" alt="طراحی وب سایت کنش گرا"></div><div class="ult-ih-info" style="background-color: #1e73be; ">	<div class="ult-ih-info-back">	<div class="ult-ih-content">			<div class="ult-ih-heading-block" style="">				<h3 class="ult-ih-heading ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-1162 .ult-ih-heading'  data-responsive-json-new='{"font-size":"desktop:22px;","line-height":"desktop:28px;"}' >طراحی</h3>			</div>			<div class="ult-ih-divider-block" style="height:1px;">				<span class="ult-ih-line" style="border-style:solid;border-color:rgba(255,255,255,0.75);width:100px;border-width:1px;"></span>			</div>			<div class="ult-ih-description-block" style="">				<div class="ult-ih-description ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-1162 .ult-ih-description, #ult-ih-list-item-1162 .ult-ih-description p'  data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:18px;"}' ><p>طراحی وب سایت کنش‌گرا با رعایت استانداردهای روز دنیا</p>
+				</div>			</div>	</div>	</div></div></div></li><li id="ult-ih-list-item-9185" class="ult-ih-list-item" style="height: 250px; width: 250px;  margin: 15px"><div style="height: 250px; width: 250px; " class="ult-ih-item ult-ih-effect10    ult-ih-bottom_to_top"><div class="ult-ih-image-block" style="height: 250px; width: 250px; ">	<div class="ult-ih-wrapper" style=""></div>	<img class="ult-ih-image" src="/wp-content/uploads/SEO.svg" alt="سئو بهینه سازی برای موتور جستجو"></div><div class="ult-ih-info" style="background-color: #1e73be; ">	<div class="ult-ih-info-back">	<div class="ult-ih-content">			<div class="ult-ih-heading-block" style="">				<h3 class="ult-ih-heading ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-9185 .ult-ih-heading'  data-responsive-json-new='{"font-size":"desktop:22px;","line-height":"desktop:28px;"}' >سئو</h3>			</div>			<div class="ult-ih-divider-block" style="height:1px;">				<span class="ult-ih-line" style="border-style:solid;border-color:rgba(255,255,255,0.75);width:100px;border-width:1px;"></span>			</div>			<div class="ult-ih-description-block" style="">				<div class="ult-ih-description ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-9185 .ult-ih-description, #ult-ih-list-item-9185 .ult-ih-description p'  data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:18px;"}' ><p>بهینه سازی برای موتورهای جستجو مطابق با استانداردهای گوگل</p>
+				</div>			</div>	</div>	</div></div></div></li><li id="ult-ih-list-item-2957" class="ult-ih-list-item" style="height: 250px; width: 250px;  margin: 15px"><div style="height: 250px; width: 250px; " class="ult-ih-item ult-ih-effect10    ult-ih-bottom_to_top"><div class="ult-ih-image-block" style="height: 250px; width: 250px; ">	<div class="ult-ih-wrapper" style=""></div>	<img class="ult-ih-image" src="/wp-content/uploads/Maintenance.svg" alt="پشتیبانی و نگهداری وب سایت"></div><div class="ult-ih-info" style="background-color: #1e73be; ">	<div class="ult-ih-info-back">	<div class="ult-ih-content">			<div class="ult-ih-heading-block" style="">				<h3 class="ult-ih-heading ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-2957 .ult-ih-heading'  data-responsive-json-new='{"font-size":"desktop:22px;","line-height":"desktop:28px;"}' >پشتیبانی</h3>			</div>			<div class="ult-ih-divider-block" style="height:1px;">				<span class="ult-ih-line" style="border-style:solid;border-color:rgba(255,255,255,0.75);width:100px;border-width:1px;"></span>			</div>			<div class="ult-ih-description-block" style="">				<div class="ult-ih-description ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-2957 .ult-ih-description, #ult-ih-list-item-2957 .ult-ih-description p'  data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:18px;"}' ><p>نگهداری وب سایت شما و رفع اشکالات و خرابی‌های احتمالی</p>
+				</div>			</div>	</div>	</div></div></div></li><li id="ult-ih-list-item-5763" class="ult-ih-list-item" style="height: 250px; width: 250px;  margin: 15px"><div style="height: 250px; width: 250px; " class="ult-ih-item ult-ih-effect10    ult-ih-bottom_to_top"><div class="ult-ih-image-block" style="height: 250px; width: 250px; ">	<div class="ult-ih-wrapper" style=""></div>	<img class="ult-ih-image" src="/wp-content/uploads/Custom-EMail.svg" alt="ایمیل با آدرس دلخواه"></div><div class="ult-ih-info" style="background-color: #1e73be; ">	<div class="ult-ih-info-back">	<div class="ult-ih-content">			<div class="ult-ih-heading-block" style="">				<h3 class="ult-ih-heading ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-5763 .ult-ih-heading'  data-responsive-json-new='{"font-size":"desktop:22px;","line-height":"desktop:28px;"}' >ایمیل</h3>			</div>			<div class="ult-ih-divider-block" style="height:1px;">				<span class="ult-ih-line" style="border-style:solid;border-color:rgba(255,255,255,0.75);width:100px;border-width:1px;"></span>			</div>			<div class="ult-ih-description-block" style="">				<div class="ult-ih-description ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-5763 .ult-ih-description, #ult-ih-list-item-5763 .ult-ih-description p'  data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:18px;"}' ><p>ایجاد صندوق پست الکترونیکی با آدرس دلخواه شما</p>
+				</div>			</div>	</div>	</div></div></div></li><li id="ult-ih-list-item-5997" class="ult-ih-list-item" style="height: 250px; width: 250px;  margin: 15px"><div style="height: 250px; width: 250px; " class="ult-ih-item ult-ih-effect10    ult-ih-bottom_to_top"><div class="ult-ih-image-block" style="height: 250px; width: 250px; ">	<div class="ult-ih-wrapper" style=""></div>	<img class="ult-ih-image" src="/wp-content/uploads/Domain.svg" alt="ثبت دامنه اینترنتی"></div><div class="ult-ih-info" style="background-color: #1e73be; ">	<div class="ult-ih-info-back">	<div class="ult-ih-content">			<div class="ult-ih-heading-block" style="">				<h3 class="ult-ih-heading ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-5997 .ult-ih-heading'  data-responsive-json-new='{"font-size":"desktop:22px;","line-height":"desktop:28px;"}' >دامنه</h3>			</div>			<div class="ult-ih-divider-block" style="height:1px;">				<span class="ult-ih-line" style="border-style:solid;border-color:rgba(255,255,255,0.75);width:100px;border-width:1px;"></span>			</div>			<div class="ult-ih-description-block" style="">				<div class="ult-ih-description ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-5997 .ult-ih-description, #ult-ih-list-item-5997 .ult-ih-description p'  data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:18px;"}' ><p>راهنمایی در انتخاب و همراهی در ثبت دامنه اینترنتی دلخواه شما</p>
+				</div>			</div>	</div>	</div></div></div></li><li id="ult-ih-list-item-2534" class="ult-ih-list-item" style="height: 250px; width: 250px;  margin: 15px"><div style="height: 250px; width: 250px; " class="ult-ih-item ult-ih-effect10    ult-ih-bottom_to_top"><div class="ult-ih-image-block" style="height: 250px; width: 250px; ">	<div class="ult-ih-wrapper" style=""></div>	<img class="ult-ih-image" src="/wp-content/uploads/Content.svg" alt="تأمین محتوای وب سایت"></div><div class="ult-ih-info" style="background-color: #1e73be; ">	<div class="ult-ih-info-back">	<div class="ult-ih-content">			<div class="ult-ih-heading-block" style="">				<h3 class="ult-ih-heading ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-2534 .ult-ih-heading'  data-responsive-json-new='{"font-size":"desktop:22px;","line-height":"desktop:28px;"}' >محتوا</h3>			</div>			<div class="ult-ih-divider-block" style="height:1px;">				<span class="ult-ih-line" style="border-style:solid;border-color:rgba(255,255,255,0.75);width:100px;border-width:1px;"></span>			</div>			<div class="ult-ih-description-block" style="">				<div class="ult-ih-description ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-2534 .ult-ih-description, #ult-ih-list-item-2534 .ult-ih-description p'  data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:18px;"}' ><p>تأمین محتوای متنی و تصویری وب سایت شما با رعایت اصول سئو</p>
+				</div>			</div>	</div>	</div></div></div></li><li id="ult-ih-list-item-5909" class="ult-ih-list-item" style="height: 250px; width: 250px;  margin: 15px"><div style="height: 250px; width: 250px; " class="ult-ih-item ult-ih-effect10    ult-ih-bottom_to_top"><div class="ult-ih-image-block" style="height: 250px; width: 250px; ">	<div class="ult-ih-wrapper" style=""></div>	<img class="ult-ih-image" src="/wp-content/uploads/SSL.svg" alt="امنیت وب سایت"></div><div class="ult-ih-info" style="background-color: #1e73be; ">	<div class="ult-ih-info-back">	<div class="ult-ih-content">			<div class="ult-ih-heading-block" style="">				<h3 class="ult-ih-heading ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-5909 .ult-ih-heading'  data-responsive-json-new='{"font-size":"desktop:22px;","line-height":"desktop:28px;"}' >امنیت</h3>			</div>			<div class="ult-ih-divider-block" style="height:1px;">				<span class="ult-ih-line" style="border-style:solid;border-color:rgba(255,255,255,0.75);width:100px;border-width:1px;"></span>			</div>			<div class="ult-ih-description-block" style="">				<div class="ult-ih-description ult-responsive" style="color:#ffffff;"  data-ultimate-target='#ult-ih-list-item-5909 .ult-ih-description, #ult-ih-list-item-5909 .ult-ih-description p'  data-responsive-json-new='{"font-size":"desktop:12px;","line-height":"desktop:18px;"}' ><p>بالا بردن ضریب امنیت وب سایت شما با استفاده از پروتکل HTTPS</p>
+				</div>			</div>	</div>	</div></div></div></li>	</ul></div></div></div></div></div>
+
+    </div><!-- #content -->
+
+	
+
+
+			</div><!-- .wf-container -->
+		</div><!-- .wf-wrap -->
+	</div><!-- #main -->
+
+	
+
+	
+	<a href="#" class="scroll-top"><span class="screen-reader-text">Go to Top</span></a>
+
+</div><!-- #page -->
+
+<script type='text/javascript' src='/wp-content/themes/dt-the7/js/main.min.js?ver=6.5.0'></script>
+<script type='text/javascript' src='/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ihover.min.js?ver=3.16.24'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.9.6'></script>
+<script type='text/javascript' src='/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.4.7'></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+ 
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+ 
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
             </div>
         </div>
-        <!-- preloader end -->
-        <!-- header-search start -->
-        <!-- header-search end -->
-
-        <!-- header 0ff canvas start -->
-        <div class="itl-off-canvas">
-            <div class="itl-off-canvas__overley">
-                <div class="itl-off-canvas__menu">
-                    <div class="itl-off-canvas__deactivate jsOffcanvasDeactivate">
-                        <i class="fas fa-times-circle"></i>
-                    </div>
-                    <div class="container">
-                        <div class="row mb-30">
-                            <div class="col">
-                                <a class="itl-off-canvas__brand" href="index.html">
-                            <img src="assets/images/seokit/logo-dark.png" alt="">
-                        </a>
-                            </div>
-                        </div>
-                        <div class="row mb-30">
-                            <div class="col">
-                                <p>SEOKIT is a creative and professional HTML5 template specially made for SEO, SEM, Business, Corporate, B2B websites. You can use this awesome template for your every marketing related needs.</p>
-                            </div>
-                        </div>
-                        <div class="row mb-30">
-                            <div class="col">
-                                <h4 class="mb-30">Location</h4>
-                                <div class="location">
-                                    <div class="location__item">
-                                        <div class="location__icon">
-                                            <i class="fas fa-mobile-alt"></i>
-                                        </div>
-                                        <div class="location__content">
-                                            <p>+81 436 9672 501</p>
-                                            <p>+81 138 4694 025</p>
-                                        </div>
-                                    </div>
-                                    <div class="location__item">
-                                        <div class="location__icon">
-                                            <i class="far fa-envelope"></i>
-                                        </div>
-                                        <div class="location__content">
-                                            <p><a href="/#" class="__cf_email__" data-cfemail="650008040c09251c0a10170008040c094b060a08">[email&#160;protected]</a></p>
-                                        </div>
-                                    </div>
-                                    <div class="location__item">
-                                        <div class="location__icon">
-                                            <i class="fas fa-map-marker-alt"></i>
-                                        </div>
-                                        <div class="location__content">
-                                            <p>1425, Bashundhara Complex</p>
-                                            <p>Washington, Connecticut 65348</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <h4 class="mb-30">Opening Time</h4>
-                                <div class="open-time">
-                                    <p>Tuesday: 10:00am - 07:00pm</p>
-                                    <p>Wednesday: 10:00am - 07:00pm</p>
-                                    <p>Thursday: 10:00am - 07:00pm</p>
-                                    <p>Friday: 10:00am - 07:00pm</p>
-                                    <p>Saturday: 10:00am - 07:00pm</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- header 0ff canvas end -->
-        <!-- header section start -->
-        <!-- logo+nav+search+off-canvas -->
-        <header class="itl-header itl-header--fixed fixed-top is-visible" data-nav-status="toggle">
-            <div class="itl-head">
-                <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar--dark">
-                        <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/seokit/logo.png" alt="">
-                </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active dropdown">
-                                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="index.html">Home Page 1</a>
-                                        <a class="dropdown-item" href="home-page-2.html">Home Page 2</a>
-                                        <a class="dropdown-item" href="home-page-3.html">Home Page 3</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="about-us.html">About us</a>
-                                        <a class="dropdown-item" href="case-details.html">Case Details</a>
-                                        <a class="dropdown-item" href="pricing-table.html">Pricing Table</a>
-                                        <a class="dropdown-item" href="reviews.html">Client Reviews</a>
-                                        <a class="dropdown-item" href="team.html">Team</a>
-                                        <a class="dropdown-item" href="faq.html">FAQ</a>
-                                        <a class="dropdown-item" href="404.html">404</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="services.html">All Services</a>
-                                        <a class="dropdown-item" href="service-details.html">Service Details</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="project.html">All Projects</a>
-                                        <a class="dropdown-item" href="project-details.html">Project Details</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown itl-mega-dropdown">
-                                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Features</a>
-                                    <div class="dropdown-menu itl-megamenu">
-                                        <div class="row">
-                                            <div class="col-md-3">
-                                                <h3>Service List</h3>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">SEO Strategy</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">SEO Consultency</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Keyword Research</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Link Building</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Website SEO Audit</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Email Marketing</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <h3>Elements One</h3>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">Alert</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Accordion</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Blockquote</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Typography</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Animated Counter</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <h3>Elements Two</h3>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">Dropcap</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Pricing Table</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Pie Chart</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#">Progress Bar</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <h3>About SEOKit</h3>
-                                                <p>SEOKIT is specially made for SEO, SEM, Business, Corporate, B2B websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                                        <a class="dropdown-item" href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                                        <a class="dropdown-item" href="single-blog.html">Single Blog</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                            <!-- /.navbar-nav -->
-
-                        </div>
-                        <!-- /.collapse navbar-collapse -->
-                        <div class="d-none d-lg-inline-block ">
-                            <div class="head-right">
-                                <i class="fas fa-bars itl-off-canvas-activate jsOffcanvasActivate"></i>
-                            </div>
-                        </div>
-                        <!-- /.header-right -->
-                    </nav>
-                </div>
-                <!-- /.conteiner -->
-            </div>
-        </header>
-        <!-- slideshow start -->
-        <!-- /.slideshow-area -->
-        <!-- slideshow end -->
-        <!-- feature-section 2 start -->
-        <section class="feature-section pt-115">
-            <div class="container container--extend">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <article class="itl-image-box left-align mb-30 xs-mb-30">
-                                    <figure class="itl-image-box__img">
-                                        <img src="assets/images/feature-images/seokit-fi-1.png" alt="">
-                                    </figure>
-                                    <div class="itl-image-box__content">
-                                        <a href="">
-                                            <h3 class="itl-image-box__title">SEO Performance</h3>
-                                        </a>
-                                        <p class="itl-image-box__text">Lorem ipsum dolor sit amet, mea lorem temporibus id. In integre salutandi</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <!-- /.col -->
-                            <div class="col-md-6">
-                                <article class="itl-image-box left-align mb-30 xs-mb-30">
-                                    <figure class="itl-image-box__img">
-                                        <img src="assets/images/feature-images/seokit-fi-2.png" alt="">
-                                    </figure>
-                                    <div class="itl-image-box__content">
-                                        <a href="">
-                                            <h3 class="itl-image-box__title">Web Analytics</h3>
-                                        </a>
-                                        <p class="itl-image-box__text">Lorem ipsum dolor sit amet, mea lorem temporibus id. In integre salutandi nam</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <!-- /.col -->
-                            <div class="col-md-6">
-                                <article class="itl-image-box left-align xs-mb-30">
-                                    <figure class="itl-image-box__img">
-                                        <img src="assets/images/feature-images/seokit-fi-3.png" alt="">
-                                    </figure>
-                                    <div class="itl-image-box__content">
-                                        <a href="">
-                                            <h3 class="itl-image-box__title">Network Protection</h3>
-                                        </a>
-                                        <p class="itl-image-box__text">Lorem ipsum dolor sit amet, mea lorem temporibus id. In integre salutandi nam</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <!-- /.col -->
-                            <div class="col-md-6">
-                                <article class="itl-image-box left-align xs-mb-30">
-                                    <figure class="itl-image-box__img">
-                                        <img src="assets/images/feature-images/seokit-fi-4.png" alt="">
-                                    </figure>
-                                    <div class="itl-image-box__content">
-                                        <a href="">
-                                            <h3 class="itl-image-box__title">Speed Optimization</h3>
-                                        </a>
-                                        <p class="itl-image-box__text">Lorem ipsum dolor sit amet, mea lorem temporibus id. In integre salutandi nam</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <!-- /.col -->
-                        </div>
-                        <!-- /.row -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <img src="assets/images/seokit/seokit-image-element-2.png" alt="">
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- feature-section 2 end -->
-
-
-        <!-- feature bottom 2 start -->
-        <section class="feature-bottom-section pad-115">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-block">
-                            <h3 class="xs-heading-title mb-30">Provide us with the following information and we'll email you the SEO score of your website</h3>
-                        </div>
-                        <!-- /.text-block -->
-                        <form class="report-request">
-                            <div class="form-row">
-                                <div class="col-4">
-                                    <input type="text" class="form-control" placeholder="Enter your website">
-                                </div>
-                                <div class="col-4">
-                                    <input type="email" class="form-control" placeholder="Enter you email">
-                                </div>
-                                <div class="col">
-                                    <button class="btn btn-seokit-primary-alt">Get free report</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- feature bottom 2 end -->
-        <!-- image content 1 start -->
-        <section class="image-content parallax background-image-1 pad-115">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="assets/images/seokit/seokit-image-element-1.png" alt="" class="img-fluid">
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-6">
-                        <div class="text-block white-text mb-40">
-                            <h2 class="sm-heading-title fw-500">5 Key Benefits of SEO</h2>
-                            <h3 class="lg-heading-title headings-primary-color fw-600">Making Best Strategy</h3>
-                        </div>
-                        <!-- /.text-block -->
-                        <div class="text-block white-text fw-500 mb-30">
-                            <p>You can talk to your friends and family on social media. You can search for your favorite content on Google or YouTube. You can read and learn from blogs you find. And you can check your email. And, most importantly, you can
-                                spend your money!
-                            </p>
-                        </div>
-                        <!-- /.text-block -->
-                        <div class="text-block white-text fw-500 mb-30">
-                            <ol>
-                                <li>User-Friendly Websites</li>
-                                <li>Bring in MORE Traffic</li>
-                                <li>Better Conversion Rates</li>
-                                <li>Build Brand Awareness</li>
-                                <li>Bypass Competition</li>
-                            </ol>
-                        </div>
-                        <a href="" class="btn btn-seokit-primary">Get Started</a>
-                        <!-- /.text-block -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- seokit image content 1 end -->
-        <!-- service section 1 start -->
-        <div class="service-block pad-115">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="seokit-section-title text-center">
-                            <h3 class="lg-heading-title">Our Services</h3>
-                            <p>Drive more traffic to your website with our SEO services</p>
-                        </div>
-                        <!-- /.section-title -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-4 p-0">
-                        <article class="itl-service-box bg-shamrock center-align">
-                            <figure class="itl-service-box__img">
-                                <img src="assets/images/service-images/seokit-si-1.png" alt="">
-                            </figure>
-                            <div class="itl-service-box__content">
-                                <a href="service-details.html">
-                                    <h3 class="itl-service-box__title">SEO Consultency</h3>
-                                </a>
-                                <p class="itl-service-box__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-                            </div>
-                        </article>
-                        <!-- /.itl-service-box -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4 p-0">
-                        <article class="itl-service-box center-align">
-                            <figure class="itl-service-box__img">
-                                <img src="assets/images/service-images/seokit-si-2.png" alt="">
-                            </figure>
-                            <div class="itl-service-box__content">
-                                <a href="service-details.html">
-                                    <h3 class="itl-service-box__title">Keyword Research</h3>
-                                </a>
-                                <p class="itl-service-box__text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime</p>
-                            </div>
-                        </article>
-                        <!-- /.itl-service-box -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4 p-0">
-                        <article class="itl-service-box bg-java center-align">
-                            <figure class="itl-service-box__img">
-                                <img src="assets/images/service-images/seokit-si-3.png" alt="">
-                            </figure>
-                            <div class="itl-service-box__content">
-                                <a href="service-details.html">
-                                    <h3 class="itl-service-box__title">Link Building</h3>
-                                </a>
-                                <p class="itl-service-box__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-                            </div>
-                        </article>
-                        <!-- /itl-service-box -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4 p-0">
-                        <article class="itl-service-box center-align">
-                            <figure class="itl-service-box__img">
-                                <img src="assets/images/service-images/seokit-si-4.png" alt="">
-                            </figure>
-                            <div class="itl-service-box__content">
-                                <a href="service-details.html">
-                                    <h3 class="itl-service-box__title">Code Optimization</h3>
-                                </a>
-                                <p class="itl-service-box__text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime</p>
-                            </div>
-                        </article>
-                        <!-- /itl-service-box -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4 p-0">
-                        <article class="itl-service-box bg-dandelion center-align">
-                            <figure class="itl-service-box__img">
-                                <img src="assets/images/service-images/seokit-si-5.png" alt="">
-                            </figure>
-                            <div class="itl-service-box__content">
-                                <a href="service-details.html">
-                                    <h3 class="itl-service-box__title">Web SEO Audit</h3>
-                                </a>
-                                <p class="itl-service-box__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-                            </div>
-                        </article>
-                        <!-- /itl-service-box -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4 p-0">
-                        <article class="itl-service-box center-align">
-                            <figure class="itl-service-box__img">
-                                <img src="assets/images/service-images/seokit-si-6.png" alt="">
-                            </figure>
-                            <div class="itl-service-box__content">
-                                <a href="service-details.html">
-                                    <h3 class="itl-service-box__title">Email Marketing</h3>
-                                </a>
-                                <p class="itl-service-box__text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime</p>
-                            </div>
-                        </article>
-                        <!-- /.itl-service-box -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- service section 1 end -->
-        <!-- pricing box start -->
-        <section class="pricing-section bg-whisper pad-115">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="seokit-section-title text-center">
-                            <h3 class="lg-heading-title">Service Plans</h3>
-                            <p>Reasonable pricing plans for all types of business.</p>
-                        </div>
-                        <!-- /.section-title -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-4">
-                        <article class="pricing-box text-center xs-mb-50">
-                            <figure class="pricing-box__img">
-                                <img src="assets/images/seokit/seokit-image-pricing-1.png" alt="">
-                            </figure>
-                            <div class="pricing-box__content">
-                                <h4 class="pricing-box__title">Personal</h4>
-                                <p>Pro mandamus mediocritatem et, duo euripidis urbanitas ad. Tantas insolens eloquentiam sit cu, qui adh.</p>
-                                <div class="pricing-box__amount">
-                                    <div>$</div>
-                                    <div>
-                                        <h5>55</h5>
-                                    </div>
-                                    <div>/month</div>
-                                </div>
-                            </div>
-                            <div class="pricing-box__link">
-                                <a href="#" class="btn btn-seokit-pricing">Get Started</a>
-                            </div>
-                    </div>
-                    </article>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <article class="pricing-box text-center xs-mb-50">
-                            <figure class="pricing-box__img">
-                                <img src="assets/images/seokit/seokit-image-pricing-2.png" alt="">
-                            </figure>
-                            <div class="pricing-box__content">
-                                <h4 class="pricing-box__title">Business</h4>
-                                <p>Pro mandamus mediocritatem et, duo euripidis urbanitas ad. Tantas insolens eloquentiam sit cu, qui adh.</p>
-                                <div class="pricing-box__amount">
-                                    <div>$</div>
-                                    <div>
-                                        <h5>75</h5>
-                                    </div>
-                                    <div>/month</div>
-                                </div>
-                            </div>
-                            <div class="pricing-box__link">
-                                <a href="#" class="btn btn-seokit-pricing">Get Started</a>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-4">
-                        <article class="pricing-box text-center xs-mb-50">
-                            <figure class="pricing-box__img">
-                                <img src="assets/images/seokit/seokit-image-pricing-3.png" alt="">
-                            </figure>
-                            <div class="pricing-box__content">
-                                <h4 class="pricing-box__title">Premium</h4>
-                                <p>Pro mandamus mediocritatem et, duo euripidis urbanitas ad. Tantas insolens eloquentiam sit cu, qui adh.</p>
-                                <div class="pricing-box__amount">
-                                    <div>$</div>
-                                    <div>
-                                        <h5>95</h5>
-                                    </div>
-                                    <div>/month</div>
-                                </div>
-                            </div>
-                            <div class="pricing-box__link">
-                                <a href="#" class="btn btn-seokit-pricing">Get Started</a>
-                            </div>
-                        </article>
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- pricing box end -->
-        <!-- case studies section start -->
-        <section class="case-studies-section pad-115">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="seokit-section-title text-center">
-                            <h3 class="lg-heading-title">Case Studies</h3>
-                            <p>Generating leads with social media marketing.</p>
-                        </div>
-                        <!-- /.section-title -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="case-studies jsCaseStudies owl-carousel">
-                            <article class="cs-box text-center">
-                                <figure class="cs-box__img bg-paprika">
-                                    <img src="assets/images/feature-images/seokit-fi-5.png" alt="">
-                                </figure>
-                                <div class="cs-box__content">
-                                    <h4><a href="">JoomShaper Captures $300,000 a Year in Organic Value</a></h4>
-                                </div>
-                            </article>
-                            <article class="cs-box text-center">
-                                <figure class="cs-box__img bg-mantis">
-                                    <img src="assets/images/feature-images/seokit-fi-6.png" alt="">
-                                </figure>
-                                <div class="cs-box__content">
-                                    <h4>
-                                        <a href="">ThemeExpert Increases organic Traffic Revenue to 96%</a>
-                                    </h4>
-                                </div>
-                            </article>
-                            <article class="cs-box text-center">
-                                <figure class="cs-box__img bg-denim">
-                                    <img src="assets/images/feature-images/seokit-fi-7.png" alt="">
-                                </figure>
-                                <div class="cs-box__content">
-                                    <h4>
-                                        <a href="">How Time Increased Key Search Traffic Over 45%</a>
-                                    </h4>
-                                </div>
-                            </article>
-                            <article class="cs-box text-center">
-                                <figure class="cs-box__img bg-mantis">
-                                    <img src="assets/images/feature-images/seokit-fi-6.png" alt="">
-                                </figure>
-                                <div class="cs-box__content">
-                                    <h4>
-                                        <a href="">Groupon Finds Up to 60% of Direct Traffic Search</a>
-                                    </h4>
-                                </div>
-                            </article>
-                        </div>
-                        <!-- /.case-studies-carousel -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- case studies section end -->
-        <!-- image content 2 start -->
-        <section class="image-content no-parallax background-image-2 pad-115">
-            <div class="container container--extend">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="text-block white-text mb-40">
-                            <h2 class="sm-heading-title fw-500">Explore new markets</h2>
-                            <h3 class="lg-heading-title fw-600">Find new customers</h3>
-                        </div>
-                        <!-- /.text-block -->
-                        <div class="text-block white-text fw-500 mb-40">
-                            <p>It is a fact that businesses that have a website grow twice as fast as businesses that don’t have a website. SEO will help you gain better rankings in search engine result pages and this translates to more targeted visits and
-                                essentially to more customers.</p>
-                        </div>
-                        <!-- /.text-block -->
-                        <!-- /.text-block -->
-                        <div class="row">
-                            <div class="col">
-                                <div class="itl-counter">
-                                    <div class="itl-counter__value">
-                                        <div class="itl-counter__counter jsCounter" data-from="0" data-to="12" data-speed="5000" data-refresh-interval="50"></div>
-                                        <div class="itl-counter__suffix">K</div>
-                                    </div>
-                                    <div class="itl-counter__content white-text">
-                                        <h4>Happy Client</h4>
-                                    </div>
-                                </div>
-                                <!-- /.itl-counter -->
-                            </div>
-                            <!-- /.col -->
-                            <div class="col">
-                                <div class="itl-counter">
-                                    <div class="itl-counter__value">
-                                        <div class="itl-counter__counter jsCounter" data-from="0" data-to="1450" data-speed="5000" data-refresh-interval="50"></div>
-                                    </div>
-                                    <div class="itl-counter__content white-text">
-                                        <h4>Project Submitted</h4>
-                                    </div>
-                                </div>
-                                <!-- /.itl-counter -->
-                            </div>
-                            <!-- /.col -->
-                            <div class="col">
-                                <div class="itl-counter">
-                                    <div class="itl-counter__value">
-                                        <div class="itl-counter__counter jsCounter" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50"></div>
-                                        <div class="itl-counter__suffix">%</div>
-                                    </div>
-                                    <div class="itl-counter__content white-text">
-                                        <h4>Satisfaction</h4>
-                                    </div>
-                                </div>
-                                <!-- /.itl-counter -->
-                            </div>
-                            <!-- /.col -->
-                        </div>
-                        <!-- /.row -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-6 d-none d-sm-block white-text text-center">
-                        <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/zayp3vcn7eY">
-                    <img class="pt-115 mb-30 img-fluid" src="assets/images/seokit/seokit-video-play-btn.png" alt="">
-                </a>
-                        <h4>Click to watch the promo video</h4>
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- seokit image content 2 end -->
-        <!-- blog grid start -->
-        <section class="blog-grid-section  pad-115">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="seokit-section-title text-center">
-                            <h3 class="lg-heading-title">Latest Blog</h3>
-                            <p>For the next generation of big businesses.</p>
-                        </div>
-                        <!-- /.section-title -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="blog-grid">
-                            <div class="blog-grid__item">
-                                <div class="blog-grid__img">
-                                    <img class="img-fluid" src="assets/images/blog-images/blog-thumb-1.jpg" alt="">
-                                </div>
-                                <div class="blog-grid__content">
-                                    <h4>
-                                        <a href="#">SEO pulls-in quality traffic</a>
-                                    </h4>
-                                    <p>Ne sententiae constituam eam. Paulo omnes oblique sea ea, inani persius sea, ei exerci laudem recusabo eos.</p>
-                                    <div class="blog-grid__meta">
-                                        <span>31 March 2018</span>
-                                        <span class="text-right">
-                                    <span class="blog-grid__social">
-                                        <span class="blog-grid__social-icon">
-                                            <a href="#">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fab fa-pinterest"></i>
-                                            </a>
-                                        </span>
-                                        <i class="fas fa-share-alt"></i>
-                                        </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.blog-grid-item -->
-                            <div class="blog-grid__item">
-                                <div class="blog-grid__img">
-                                    <img class="img-fluid" src="assets/images/blog-images/blog-thumb-2.jpg" alt="">
-                                </div>
-                                <div class="blog-grid__content">
-                                    <h4>
-                                        <a href="#">Now, here’s the good news.</a>
-                                    </h4>
-                                    <p>Ne sententiae constituam eam. Paulo omnes oblique sea ea, inani persius sea, ei exerci laudem recusabo eos.</p>
-                                    <div class="blog-grid__meta">
-                                        <span>31 March 2018</span>
-                                        <span class="text-right">
-                                    <span class="blog-grid__social">
-                                        <span class="blog-grid__social-icon">
-                                            <a href="#">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fab fa-pinterest"></i>
-                                            </a>
-                                        </span>
-                                        <i class="fas fa-share-alt"></i>
-                                        </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.blog-grid-item -->
-                            <div class="blog-grid__item">
-                                <div class="blog-grid__img">
-                                    <img class="img-fluid" src="assets/images/blog-images/blog-thumb-3.jpg" alt="">
-                                </div>
-                                <div class="blog-grid__content">
-                                    <h4>
-                                        <a href="#">They do not have enough time.</a>
-                                    </h4>
-                                    <p>Ne sententiae constituam eam. Paulo omnes oblique sea ea, inani persius sea, ei exerci laudem recusabo eos.</p>
-                                    <div class="blog-grid__meta">
-                                        <span>31 March 2018</span>
-                                        <span class="text-right">
-                                    <span class="blog-grid__social">
-                                        <span class="blog-grid__social-icon">
-                                            <a href="#">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="fab fa-pinterest"></i>
-                                            </a>
-                                        </span>
-                                        <i class="fas fa-share-alt"></i>
-                                        </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.blog-grid-item -->
-                        </div>
-                        <!-- /.blog-grid -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- blog grid end -->
-        <!-- footer start -->
-        <footer class="footer parallax background-image-4 pad-90">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="widget seokit-about-widget">
-                            <h2 class="widget-title">About Us</h2>
-                            <div class="seokit-about-widget-content">
-                                <p>Lorem ipsum dolor sit amet, at est duis exerci, id mei tritani interesset nece ssitatibus. Ad per rebum sig niferumque. Ei duo homero iuvaret.</p>
-                                <div class="seokit-widget-address">
-                                    <p><i class="fas fa-map-marker-alt"></i> 23, Green Street, Melbourne</p>
-                                    <p><i class="fab fa-telegram-plane"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4831273d3a2d25292124082d25292124662b2725">[email&#160;protected]</a></p>
-                                    <p><i class="fas fa-phone-volume"></i> +012 345 6789</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.widget -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-3">
-                        <div class="widget seokit-lastest-post-widget">
-                            <h2 class="widget-title">Latest Posts</h2>
-                            <div class="seokit-latest-post">
-                                <div class="seokit-latest-post-item">
-                                    <div class="post-item-image">
-                                        <img src="assets/images/seokit/seokit-fp-1.jpg" alt="">
-                                    </div>
-                                    <div class="post-item-title">
-                                        <h4><a href="#">Modus inani quo ad, per clita denique referrentur no</a></h4>
-                                    </div>
-                                </div>
-                                <!-- /.seokit-latest-post-item -->
-                                <div class="seokit-latest-post-item">
-                                    <div class="post-item-image">
-                                        <img src="assets/images/seokit/seokit-fp-2.jpg" alt="">
-                                    </div>
-                                    <div class="post-item-title">
-                                        <h4>
-                                            <a href="#">Modus inani quo ad, per clita denique referrentur no</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <!-- /.seokit-latest-post-item -->
-                                <div class="seokit-latest-post-item">
-                                    <div class="post-item-image">
-                                        <img src="assets/images/seokit/seokit-fp-3.jpg" alt="">
-                                    </div>
-                                    <div class="post-item-title">
-                                        <h4>
-                                            <a href="#">Modus inani quo ad, per clita denique referrentur no</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <!-- /.seokit-latest-post-item -->
-                            </div>
-                            <!-- /.seokit-latest-post -->
-                        </div>
-                        <!-- /.widget -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-3">
-                        <div class="widget widget_nav_menu">
-                            <h2 class="widget-title">Quick Links</h2>
-                            <div class="menu-all-pages-container">
-                                <ul class="menu">
-                                    <li><a href="#"><i class="fas fa-caret-right"></i> About Our Team</a></li>
-                                    <li><a href="#"><i class="fas fa-caret-right"></i> Monitoring Ranking</a></li>
-                                    <li><a href="#"><i class="fas fa-caret-right"></i> SEO Support</a></li>
-                                    <li><a href="#"><i class="fas fa-caret-right"></i> Search Engine Optimization</a></li>
-                                    <li><a href="#"><i class="fas fa-caret-right"></i> Search Engine Marketing</a></li>
-                                    <li><a href="#"><i class="fas fa-caret-right"></i> Code Optimization</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- /.widget -->
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-md-3">
-                        <div class="widget widget_nav_menu">
-                            <h2 class="widget-title">Subscribe</h2>
-                            <p>Sign up for our mailing list to get latest updates and offers</p>
-                            <form class="mc4wp-form">
-                                <div class="mc4wp-form-fiels">
-                                    <p><input type="email" placeholder="Enter your email" required></p>
-                                    <p><input type="submit" value="Sign up"></p>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- /.widget -->
-                        <div class="widget seokit-social-widget">
-                            <div class="seokit-social">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- /.widget -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </footer>
-        <!-- footer end -->
-        <!-- seokit copyright section start -->
-        <div class="itl-section-wrap bg-bigstone">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; <a href="#"> iThemesLab</a>. All Rights Reserved</p>
-                        </div>
-                    </div>
-                    <!-- /.col -->
-                    <div class="col">
-                        <div class="copyright-nav">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Terms</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- seokit copyright section end -->
-        <!-- back to top start -->
-        <div id="back-to-top" class="back-to-top">
-            <i class="fas fa-angle-up"></i>
-        </div>
-        <!-- back to top end -->
-        <!-- JavaScript Files Start -->
-        <!-- jQuery -->
-        <script data-cfasync="false" src="/cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery.min.js"></script>
-        <!-- bootstrap js -->
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <!-- owl carousel js -->
-        <script src="assets/js/vendor/owl.carousel.min.js"></script>
-        <!-- appear js -->
-        <script src="assets/js/vendor/jquery.appear.js"></script>
-        <!-- venobox js -->
-        <script src="assets/js/vendor/venobox.min.js"></script>
-        <!-- count js -->
-        <script src="assets/js/vendor/jquery.countTo.js"></script>
-        <!-- seokit main js -->
-        <script src="assets/js/main.js"></script>
-        <!-- JavaScript Files End -->
     </div>
+</div>
 </body>
-
 </html>
