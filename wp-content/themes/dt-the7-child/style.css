@@ -61,3 +61,7 @@ font-family: icomoon-the7-social-icons-16x16, FontAwesome, iranyekan !important;
 .separator-holder {
     top: 60%;
 }
+
+.ph-wrap.with-logo .logo-box {
+	order: 2;
+}

@@ -73,7 +73,7 @@ h1,
   .entry-title.h1-size,
   .dt-accordion-h1-size .wpb_accordion_header > a {
     font-size: 34px;
-    line-height: 44px;
+    line-height: 60px;
   }
 }
 h2,
@@ -82,7 +82,7 @@ h2,
 h1.entry-title,
 .dt-accordion-h2-size .wpb_accordion_header > a {
   color: #333333;
-  font:  normal 600 34px / 44px "Georgia", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 600 34px / 60px "Georgia", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 h3,
