@@ -1,0 +1,14 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "سئو ساخت",
+    "description": "",
+    "home_page_url": "https://www.seosakht.ir",
+    "feed_url": "https://www.seosakht.ir/feed.json",
+    "user_comment": "",
+    "icon": "https://www.seosakht.ir/media/website/SEOsakht.png",
+    "author": {
+        "name": "سئو ساخت"
+    },
+    "items": [
+    ]
+}
