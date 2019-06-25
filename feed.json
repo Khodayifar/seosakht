@@ -11,16 +11,17 @@
     },
     "items": [
         {
-            "id": "https://www.seosakht.ir/home.html",
-            "url": "https://www.seosakht.ir/home.html",
+            "id": "https://www.seosakht.ir/seosakht.html",
+            "url": "https://www.seosakht.ir/seosakht.html",
             "title": "سئو ساخت: مشاوره، طراحی، سئو، بهینه سازی و پشتیبانی وب سایت",
+            "summary": "<p>گروه نرم‌افزاری سئو ساخت در نظر دارد، به مناسبت آغاز به کار خود، هفت وب گاه حرفه‌ای را با رعایت استانداردهای روز دنیا و به طور کاملا رایگان طراحی، راه‌اندازی و پشتیبانی نماید.</p>\n",
             "author": {
                 "name": "سئو ساخت"
             },
             "tags": [
             ],
             "date_published": "2019-06-24T12:55:00+04:30",
-            "date_modified": "2019-06-24T12:57:47+04:30"
+            "date_modified": "2019-06-25T15:03:58+04:30"
         }
     ]
 }
