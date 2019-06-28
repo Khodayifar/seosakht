@@ -1,13 +1,13 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "سئو ساخت",
+    "title": "سئو ساخت",
     "description": "",
     "home_page_url": "https://www.seosakht.ir",
     "feed_url": "https://www.seosakht.ir/feed.json",
     "user_comment": "",
     "icon": "https://www.seosakht.ir/media/website/SEOsakht.png",
     "author": {
-        "name": "سئو ساخت"
+        "name": "سئو ساخت"
     },
     "items": [
         {
@@ -16,7 +16,7 @@
             "title": "راهنما",
             "summary": "<p>اشاره به چند نکتۀ کلی برای ایجاد یک وب گاه و موارد لازم برای تامین محتوا</p>\n",
             "author": {
-                "name": "سئو ساخت"
+                "name": "سئو ساخت"
             },
             "tags": [
             ],
