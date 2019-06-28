@@ -1,1 +1,3 @@
 html{direction:rtl}
+ul,ol{margin-right:2rem;margin-left:unset}
+.post__toc ul ul li:before{margin-right:-2rem;margin-left:unset}
